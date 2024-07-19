@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>percentage calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <div id="main">
+        <div id="container">
+            <div id="textOrinput">
+                <div id="text">
+                    <h2 class="student">STUDENT</h2>
+                    <h2 class="grade">GRADE</h2>
+                    <h2 class="calsy">CALSY</h2>
+                </div>
+                <div id="input">
+                    <div class="app-from-group">
+                        <input type="text" class="app-form-control" placeholder="WEB PROGRAMMING" id="wd">
+                    </div>
+                    <div class="app-from-group">
+                        <input type="text" class="app-form-control" placeholder="MATHS" id="maths">
+                    </div>
+                    <div class="app-from-group">
+                        <input type="text" class="app-form-control" placeholder="COMPUTER" id="comp">
+                    </div>
+                    <div class="app-from-group">
+                        <input type="text" class="app-form-control" placeholder="PHYSICS" id="phy">
+                    </div>
+                    <input id="result" type="button" value="showPercentage" onclick="calsy()" class="app-form-button">
+
+                </div>
+            </div>
+            <div class="app-from-group  datashow">
+                <p id="showData"></p>
+            </div>
+        </div>
+    </div>
+   
+</body>
+<script src="script.js"></script>
+</html>
